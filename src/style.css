@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+h1{
+    color: rgb(150, 84, 212);
+    margin: 5vh;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input{
+    height: 5vh; 
+    width: 30vh;
+    padding: 1vh;
+    margin: 2vh;
+    border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+    
+}
+input:focus {
+   
+    outline: none; /* Removes the blue outline */
+  border-color: rgb(150, 84, 212); /* Changes border color on focus */
+  box-shadow: 0 0 5px rgb(150, 84, 212); /* Adds a soft shadow */
+}
+  
+
+button{
+    height: 5vh; 
+    width: 20vh;
+    margin: 1vh;
+
+    
+        
+      
+
+     
+
+      
+    
+}
+
+
+
+li{
+   list-style: none;
+   font-size: x-large;
+   margin: 4vh;
+   border: black  ; 
+   border-radius: 2vh;
+   border-style :double;
+    background-color: rgb(242, 231, 252);
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   transition: box-shadow 0.3s ease;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.task-list{
+    margin: 5vh;
+    
+    border: black;
+    border-width: 2vh;
+    border-radius: 1vh;
+}
+
+.btn-2 > button{
+    background-color:rgb(212, 84, 84);
+        color: white;
+        border: rgb(150, 84, 212);
+        border-radius: 3vh;
+       
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-2 > button:hover {
+    background-color: #0c0e0c;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1); /* Slightly enlarges the button */
+  }
+
+
+  .btn-1 > button{
+    background-color:rgb(116, 11, 157);
+    color: white;
+    border: rgb(49, 10, 77);
+    border-radius: 1vh;
+   
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-1 > button:hover{
+    background-color: rgb(49, 10, 77);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+
+.add-btn{
+    background-color:rgb(10, 77, 165);
+    color: white;
+    border: rgb(49, 10, 77);
+    border-radius: 1vh;
+   
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.add-btn:hover{
+    background-color: rgb(49, 10, 77);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+
+span{
+    margin : 4vh;
+}
+
+
+
+
+li.undo{
+    list-style: none;
+    font-size: x-large;
+    margin: 4vh;
+    border: black  ; 
+    border-radius: 2vh;
+    border-style :double;
+     background-color: rgb(246, 93, 90);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+
+
+.btn-1 > button.undo{
+    background-color:rgb(255, 118, 64);
+    color: white;
+    border: rgb(49, 10, 77);
+    border-radius: 1vh;
+   
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-1 > button:hover{
+    background-color: rgb(49, 10, 77);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+  
+  
+
+
+
